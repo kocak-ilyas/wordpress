@@ -49,8 +49,7 @@ add_action("after_setup_theme", "morello_theme_support");
 add_theme_support("menus");
 register_nav_menus(
     array(
-        'top-menu' => __("Page Sidebar", "theme"),
-        'footer-menu' => __("Footer Menu", "theme")
+        'top-menu' => __("Page Sidebar", "theme")
     )
 );
 
