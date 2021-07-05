@@ -16,7 +16,7 @@
 
 get_header();
 ?>
-
+<img src="../morelloTheme/style/images/logo.png" style="width: auto; height: 350px;" alt="fghf" />
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 

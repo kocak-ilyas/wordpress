@@ -69,7 +69,7 @@
         </div>
         <div class="row numbered">
             <div class="col-md-6 text-center">
-                <figure class="icon-l wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.0s"> <img src="style/images/icons/concept15.svg" style="width: auto; height: 350px;" alt="" /> </figure>
+                <figure class="icon-l wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.0s"> <img src="../morelloTheme/style/images/logo.png" style="width: auto; height: 350px;" alt="aaaa" /> </figure>
             </div>
             <!-- /column -->
             <div class="divide30 hidden-md hidden-lg"></div>
