@@ -1,4 +1,27 @@
 <?php get_header(); ?>
+
+<div class="rev_slider_wrapper">
+  <div id="slider1" class="rev_slider" data-version="5.0">
+    <ul>
+
+      <li data-transition="fade">
+        <img src="style/images/art/slider-bg1.jpg" alt="">
+        <div class="tp-caption large" data-x="480" data-hoffset="" data-y="center" data-voffset="-55" data-width="['auto','auto','auto','auto']" data-height="['auto','auto','auto','auto']" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 9; white-space: nowrap;">Buraya Slider Resimleri gelecek
+        </div>
+        <div class="tp-caption medium" data-x="480" data-hoffset="" data-y="center" data-voffset="0" data-width="['auto','auto','auto','auto']" data-height="['auto','auto','auto','auto']" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 9; white-space: nowrap;">
+          Make a <em>difference</em> using Morello.
+        </div>
+        <div class="tp-caption" data-x="482" data-hoffset="" data-y="center" data-voffset="['65','65','65','90']" data-width="['auto','auto','auto','auto']" data-height="['auto','auto','auto','auto']" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="2000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap; font-size: 30px; line-height: 30px;">
+          <a href="#" class="btn btn-large">Purchase Now</a>
+        </div>
+      </li>
+
+    </ul>
+    <div class="tp-bannertimer tp-bottom"></div>
+  </div>
+</div>
+
+
 <div class="light-wrapper">
   <div class="container inner">
     <div class="thin">
@@ -35,7 +58,7 @@
       <div class="carousel-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
         <div class="owl-posts blog-carousel">
           <?php if (have_posts()) : while (have_posts()) : the_post() ?>
-          <div class="grid-view">
+              <div class="grid-view">
                 <div class="post m-3">
                   <?php if (has_post_thumbnail()) : ?>
                     <figure class="main"><img class="img-fluid p-5 m-5" src="<?php the_post_thumbnail_url("small") ?>" alt="logo" /></figure>
@@ -53,8 +76,8 @@
                     <a href="<?php the_permalink(); ?>" class="more">Devamını oku...</a>
                   </div>
                 </div>
-                </div>
-                <?php endwhile;
+              </div>
+          <?php endwhile;
           endif; ?>
         </div>
       </div>
