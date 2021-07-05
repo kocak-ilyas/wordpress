@@ -10,11 +10,11 @@
                                     <?php if (has_post_thumbnail()) : ?>
                                         <figure class="main"><img src="<?php the_post_thumbnail_url() ?>" alt="" /></figure>
                                     <?php endif; ?>
-
                                     <?php if (the_date()): ?>
-
-                                    <div class="meta"><span class="date"><?php the_date(); ?><a href="#"><?php get_comments_number() ?> Yorum</a></span></div>
-                                    <?php        endif; ?>
+                                    <div class="meta">
+                                        <span class="date"><?php the_date(); ?><a href="#"><?php get_comments_number() ?> Yorum</a></span>
+                                    </div>
+                                    <?php endif; ?>
                                     <h3 class="post-title"><a href="blog-post.html"><?php the_title()  ?></a></h3>
                                     <p><?php the_content(); ?></p>
                                     <div class="divide20"></div>

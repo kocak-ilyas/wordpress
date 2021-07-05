@@ -38,9 +38,9 @@
                         <li><a href="/wordpress">Anasayfa</a></li>
                         <li><a href="/wordpress/archive">Blog</a></li>
                         <li><a href="/wordpress/hakkımda">Hakkımda</a></li>
-                        <li><a href="/wordpress/hr">Home</a></li>
                         <li><a href="/wordpress/iletisim">İletişim</a></li>
                     </ul>
                 </div>
             </div>
         </div>
+    </div>

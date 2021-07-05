@@ -1,20 +1,13 @@
 <?php
-
 function morello_theme_support()
-{
-    add_theme_support("custom-logo");
-}
+{ add_theme_support("custom-logo");}
 add_action("after_setup_theme", "morello_theme_support");
 
 add_theme_support("post-thumbnails");
 add_image_size("small",100,100,true);
 
 add_theme_support("menus");
-register_nav_menus(
-    array(
-        'top-menu' => __("Page Sidebar", "theme"),
-    )
-);
+register_nav_menus(array('top-menu' => __("Page Sidebar", "theme")));
 
 function morello_register_styles()
 {
@@ -49,8 +42,5 @@ add_action('wp_enqueue_scripts', 'morello_register_scripts');
 
 add_theme_support("menus");
 register_nav_menus(
-    array(
-        'top-menu' => __("Page Sidebar", "theme"),
-        'footer-menu' => __("Footer Menu", "theme")
-    )
+    array('top-menu' => __("Page Sidebar", "theme"), 'footer-menu' => __("Footer Menu", "theme"))
 );
