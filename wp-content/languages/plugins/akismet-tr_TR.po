@@ -34,7 +34,7 @@ msgstr "Akismet bu yorumu kontrol edemedi ancak daha sonra otomatik olarak tekra
 msgid "Comment was caught by %s."
 msgstr "Yorum %s tarafından yakalandı."
 
-#: class.akismet.php:575
+#: class.akismet.php:576
 msgid "Akismet is not configured. Please enter an API key."
 msgstr "Akismet yapılandırılmadı. Lütfen bir API anahtarı girin."
 
@@ -104,7 +104,7 @@ msgstr "Sitenizdeki istenmeyen girdilerden kurtulun"
 msgid "Would you like to <a href=\"%s\">check pending comments</a>?"
 msgstr "Bekleyen yorumları <a href=\"%s\">denetlemek</a> ister misiniz?"
 
-#: views/setup.php:3 views/notice.php:14
+#: views/notice.php:14 views/setup.php:3
 msgid "Set up your Akismet account"
 msgstr "Akismet hesabınızı kurun"
 
@@ -116,7 +116,7 @@ msgstr "Detaylı i̇statistikler"
 msgid "Statistics"
 msgstr "İstatistikler"
 
-#: class.akismet.php:581
+#: class.akismet.php:582
 msgid "Comment not found."
 msgstr "Yorum bulunamadı."
 
@@ -191,27 +191,19 @@ msgstr[1] "Akismet %s gününüzü kurtardı!"
 msgid "Akismet filters out spam, so you can focus on more important things."
 msgstr "Akismet spamları filtreler, böylece daha önemli şeylere odaklanabilirsiniz."
 
-#: views/notice.php:135
+#: views/notice.php:136
 msgid "To continue your service, <a href=\"%s\" target=\"_blank\">upgrade to an Enterprise subscription</a>, which covers an unlimited number of sites."
 msgstr "Hizmetinizin devam edebilmesi için, <a href=\"%s\" target=\"_blank\">kurumsal aboneliğe yükseltin</a>, sınırsız sayıda siteleri kapsar."
 
-#: views/notice.php:128
-msgid "Your Pro subscription allows the use of Akismet on only one site. Please <a href=\"%s\" target=\"_blank\">purchase additional Pro subscriptions</a> or upgrade to an Enterprise subscription that allows the use of Akismet on unlimited sites."
-msgstr "Pro aboneliğiniz Akismeti sadece bir site üzerinde kullanmanıza izin verir. Lütfen <a href=\"%s\" target=\"_blank\">ek Pro abonelik satın alın</a> veya sınırsız sayıda sitede kullanmaya izin veren Kurumsal üyeliğe yükseltin."
-
-#: views/notice.php:121
+#: views/notice.php:122
 msgid "The connection to akismet.com could not be established. Please refer to <a href=\"%s\" target=\"_blank\">our guide about firewalls</a> and check your server configuration."
 msgstr "akismet.com'a bağlanılamadı. Lütfen <a href=\"%s\" target=\"_blank\">güvenlik duvarları hakkındaki rehberimizi</a> inceleyin ve sunucu yapılandırmanızı kontrol edin."
 
-#: views/notice.php:120
+#: views/notice.php:121
 msgid "The API key you entered could not be verified."
 msgstr "Girdiğiniz API anahtarı doğrulanamadı."
 
-#: views/notice.php:116
-msgid "Your API key is no longer valid. Please enter a new key or contact support@akismet.com."
-msgstr "API anahtarınız artık geçerli değil. Lütfen yeni bir anahtar girin ya da support@akismet.com adresinden irtibata geçin."
-
-#: views/notice.php:89 views/notice.php:130 views/notice.php:137
+#: views/notice.php:89 views/notice.php:131 views/notice.php:138
 msgid "Please <a href=\"%s\" target=\"_blank\">contact our support team</a> with any questions."
 msgstr "Herhangi bir sorunuz olduğunda lütfen <a href=\"%s\" target=\"_blank\">destek ekibimizle irtibata geçin</a>."
 
@@ -288,14 +280,6 @@ msgstr "%s için olan aboneliğiniz askıya alındı."
 #: views/connect-jp.php:36
 msgid "Your subscription for %s is cancelled."
 msgstr "%s için aboneliğiniz iptal edildi."
-
-#: views/notice.php:133
-msgid "You&#8217;re using Akismet on far too many sites for your Pro subscription."
-msgstr "Akismet Pro aboneliğinizi izin verilenden çok daha fazla sitede kullanıyorsunuz."
-
-#: views/notice.php:126
-msgid "You&#8217;re using your Akismet key on more sites than your Pro subscription allows."
-msgstr "Akismet anahtarınızı Pro aboneliğinizin izin verdiğinden daha fazla sitede kullanıyorsunuz."
 
 #: views/notice.php:112
 msgid "The key you entered is invalid. Please double-check it."
@@ -427,11 +411,11 @@ msgstr[1] "İstenmeyen yorum engellendi"
 msgid "Past six months"
 msgstr "Son altı ay"
 
-#: class.akismet.php:1370
+#: class.akismet.php:1371
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "Lütfen WordPress&#8217;i <a href=\"%1$s\">güncel sürüme yükseltin</a>, veya Akismet eklentisini <a href=\"%2$s\">2.4 sürümüne indirin</a>."
 
-#: class.akismet.php:1370
+#: class.akismet.php:1371
 msgid "Akismet %s requires WordPress %s or higher."
 msgstr "Akismet %s, WordPress %s veya daha yüksek sürüm gerektirir."
 
@@ -606,7 +590,7 @@ msgstr "Daha fazla bilgi için:"
 msgid "The subscription status - active, cancelled or suspended"
 msgstr "Abonelik durumu - aktif, iptal edilmiş veya askıya alınmış"
 
-#: views/config.php:203 class.akismet-admin.php:258
+#: class.akismet-admin.php:258 views/config.php:203
 msgid "Status"
 msgstr "Durum"
 
@@ -614,11 +598,11 @@ msgstr "Durum"
 msgid "The Akismet subscription plan"
 msgstr "Akismet abonelik planı"
 
-#: views/config.php:196 class.akismet-admin.php:257
+#: class.akismet-admin.php:257 views/config.php:196
 msgid "Subscription Type"
 msgstr "Abonelik türü"
 
-#: views/config.php:188 class.akismet-admin.php:254
+#: class.akismet-admin.php:254 views/config.php:188
 msgid "Account"
 msgstr "Hesap"
 
@@ -626,7 +610,7 @@ msgstr "Hesap"
 msgid "Choose to either discard the worst spam automatically or to always put all spam in spam folder."
 msgstr "En kötü spam’i otomatik olarak atmayı veya tüm spam’leri bir spam klasörüne koymayı seçin."
 
-#: views/config.php:128 class.akismet-admin.php:246
+#: class.akismet-admin.php:246 views/config.php:128
 msgid "Strictness"
 msgstr "Katılık"
 
@@ -634,7 +618,7 @@ msgstr "Katılık"
 msgid "Show the number of approved comments beside each comment author in the comments list page."
 msgstr "Yorum listesi sayfasındaki her bir yorum yazarının yanında onaylanan yorum sayısını göster."
 
-#: views/config.php:105 class.akismet-admin.php:245
+#: class.akismet-admin.php:245 views/config.php:105
 msgid "Comments"
 msgstr "Yorumlar"
 
@@ -642,7 +626,7 @@ msgstr "Yorumlar"
 msgid "Enter/remove an API key."
 msgstr "API anahtarı ekle/kaldır."
 
-#: views/config.php:70 class.akismet-admin.php:244
+#: class.akismet-admin.php:244 views/config.php:70
 msgid "API Key"
 msgstr "API Anahtarı"
 
@@ -725,8 +709,8 @@ msgstr "Bu adresi kaldır"
 msgid "Akismet"
 msgstr "Akismet"
 
-#: views/config.php:60 class.akismet-admin.php:105 class.akismet-admin.php:241
-#: class.akismet-admin.php:696
+#: class.akismet-admin.php:105 class.akismet-admin.php:241
+#: class.akismet-admin.php:696 views/config.php:60
 msgid "Settings"
 msgstr "Ayarlar"
 
